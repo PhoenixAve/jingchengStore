@@ -1,0 +1,12 @@
+.con{
+	width: 1200px;
+	margin: 0 auto;
+}
+.con .left{
+	width: 200px;
+	float: left;
+}
+.con .right{
+	width: 1000px;
+	float: right;
+}

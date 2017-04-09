@@ -1,0 +1,51 @@
+h2{
+	padding: 20px 0;
+	font-size: 18px;
+}
+.con{
+	width: 1200px;
+	margin: 0 auto;
+}
+table {
+	width: 100%;
+	font-family: "宋体";
+	font-size: 12px;
+	border: 1px solid #ccc;
+	border-color: #0089CB;
+	margin-bottom: 20px;
+}
+
+td {
+	text-align: center;
+	padding: 10px 5px;
+	border: 1px solid #ccc;
+	border-color: #0089CB;
+}
+
+.trTitle {
+	background: rgb(78, 78, 78);
+	background-color: #0089CB;
+	color: #fff;
+}
+
+.trTitle th{
+	padding: 10px 5px;
+	font-size: 16px;
+}
+.trOneLevel {
+	background-color: rgba(255,255,255,.6);
+	font-weight: 900;
+}
+
+.trOneLevel td{
+	font-size: 14px;
+}
+
+.captionAddOneLevel {
+	line-height: 30px;
+}
+
+.trTwoLevel {
+	text-align: right;
+	font-size: 10pt;
+}

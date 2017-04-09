@@ -1,0 +1,70 @@
+body {
+	font-size: 10pt;
+	color: #404040;
+	font-family: SimSun;
+}
+.con .right h2{
+	padding-left: 365px;
+	margin-top: 20px;
+	font-size: 18px;
+}
+.bookAdd{
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.bookAdd table {
+	font-size: 10pt;
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 680px;
+}
+
+.bookAdd td {
+	padding: 5px 0;
+	height: 25px;
+}
+
+.bookAdd .tp {
+	border: 1px solid #dcdcdc;
+	float: left;
+}
+
+.bookAdd ul {
+	margin-left: 50px;
+	list-style: none;
+}
+
+.bookAdd li {
+	margin: 10px;
+}
+.bookAdd input[type='text'] {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.bookAdd select {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.bookAdd .btn {
+	border: 0;
+	width: 142px;
+	height: 33px;
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 900;
+	text-align: left;
+	padding-top: 1px;
+	padding-left: 32px;
+	color: #fff;
+	font-family: 黑体;
+}
+
+.bookAdd .btn1 {
+	background: url(../../img/hong_2_btn.jpg) left top
+		no-repeat;
+}
+
+.bookAdd .btn2 {
+	background: url(../../img/hong_1_btn.jpg) left top
+		no-repeat;
+}

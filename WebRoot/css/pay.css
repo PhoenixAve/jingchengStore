@@ -1,0 +1,86 @@
+.con .divContent {
+	margin: 0 auto;
+	width: 1200px;
+	height: 100px;
+	background-color: #efeae5;
+	line-height: 100px;
+	color: #404040;
+	border: 5px solid #efeae5;
+}
+
+.con .divBank {
+	margin: 0 auto;
+	border: 5px solid #efeae5;
+	width: 1000px;
+	padding: 0 80px 0 120px;
+	margin-top: 20px;
+}
+
+.con .divText {
+	font-size: 15px;
+	font-weight: 900;
+	margin: 20px;
+}
+
+.con .spanPrice {
+	font-weight: 900;
+	font-family: "黑体";
+	margin-left: 30px;
+}
+
+.con .spanOid {
+	font-size: 13px;
+	color: #878787;
+	font-family: Arial;
+	padding-top: 10px;
+	margin-left: 30px;
+}
+
+.con .price_t {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 16px;
+}
+.con .price_t span{
+	font-size: 16px;
+}
+
+.con label{
+	display: inline-block;
+	margin: 6px 65px 14px 5px;
+	vertical-align: middle;
+}
+
+.con img {
+	display: block;
+}
+
+.con .linkNext {
+	background: url(../img/icon2.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -35px;
+	height: 40px;
+	width: 190px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 900;
+	color: #ffffff;
+	line-height: 40px;
+	font-family: "黑体";
+}
+
+.con .linkNext:HOVER {
+	background: url(../img/icon2.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -75px;
+	height: 40px;
+	width: 190px;
+	poorfish: expression(this.onclick=function jiesuan() {
+		return true
+	}
+	);
+}

@@ -1,0 +1,95 @@
+#con-wrap .con .book-wrap {
+	padding: 30px;
+	overflow: hidden;
+}
+
+#con-wrap .con table {
+	font-size: 12px;
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 738px;
+}
+
+#con-wrap .con td {
+	width: 246px;
+	height: 25px;
+}
+
+#con-wrap .con .divBookName {
+	font-size: 18px;
+	font-weight: 900;
+	margin-bottom: 30px;
+}
+
+#con-wrap .con .img_image_w {
+	display: block;
+	margin-top: 14px;
+	border: 1px solid #dcdcdc;
+	float: left;
+}
+
+#con-wrap .con .divBookDesc {
+	width: 788px;
+	float: left;
+}
+
+#con-wrap .con ul {
+	list-style: none;
+}
+
+#con-wrap .con li {
+	margin: 10px 10px 10px 50px;
+}
+
+#con-wrap .con .spanPrice {
+	text-decoration: line-through;
+}
+
+#con-wrap .con .price_n {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 18px;
+}
+#con-wrap .con .hr1 {
+	margin-left: 50px;
+	height: 0;
+	color: #dcdcdc;
+	border-top: 1px solid #ccc;
+}
+
+
+#con-wrap .con #form1 {
+	margin-bottom: 15px;
+}
+
+#cnt {
+	width: 30px;
+	text-align: center;
+	border: 1px solid #ccc;
+	margin-right: 5px;
+}
+
+#con-wrap .con #btn {
+	background: url(../img/all.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -70px;
+	height: 36px;
+	width: 146px;
+}
+
+#con-wrap .con #btn:hover {
+	background: url(../img/all.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -106px;
+	height: 36px;
+	width: 146px;
+}
+
+#con-wrap .con .divForm {
+	border: 1px solid #dcdcdc;
+	background-color: #f5f5f5;
+	margin: 15px 0 0 50px;
+	padding: 20px;
+}

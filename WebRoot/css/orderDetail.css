@@ -1,0 +1,135 @@
+.con table {
+	width: 100%;
+	font-size: 12px;	
+	text-align: center;
+}
+
+.con .tt {
+	border-top: 1px solid #e1ddd4;
+	border-bottom: 1px solid #e1ddd4;
+	height: 30px;
+	background-color: #f9f8f3;
+	text-align: center;
+}
+
+.con .td {
+	border-bottom: 1px solid #f0f0f0;
+	padding: 10px 20px;
+}
+
+.con a {
+	text-decoration: none;
+	color: #018BD3;
+}
+
+.con a:visited {
+	color: #018BD3;
+}
+
+.con a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+.con .divOrder {
+	font-weight: 900;
+	font-size: 16px;
+	padding: 20px;
+}
+
+.con .divContent {
+	border: 5px solid #efeae5;
+	/*padding: 10px 20px;*/
+}
+
+.con .div2 {
+	border-bottom: 1px solid #f2e2d4;
+}
+
+.con .div2:first-child dd{
+	padding: 10px 20px;
+}
+
+.con dt {
+	font-weight: 900;
+	font-size: 14px;
+	padding: 10px 20px;
+}
+
+.con .title {
+	border: 1px solid #d0d0d0;
+	background: url(../img/bg_btns.png) repeat-x;
+	background-position: 0 -132px;
+	margin-left: 2px;
+	height: 30px;
+	width: 99.8%;
+}
+
+.con td .bookname {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: keep-all;
+	white-space: nowrap;
+	width: 400px;
+	text-align: left;
+}
+
+.con .pay {
+	background: url(../img/sprites_orderdetails.gif) no-repeat;
+	display: inline-block;
+	background-position: 0 -200px;
+	height: 34px;
+	width: 142px;
+	margin-top: 10px;
+}
+
+.con .price_t {
+	font-size: 16px;
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+}
+
+.con .price_t span{
+	font-size: 16px;
+}
+
+.con a {
+	text-decoration: none;
+}
+
+.con .tab a:visited {
+	color: #018BD3;
+}
+
+.con .tab a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+.con #confirm {
+	background: url(../img/confirm.jpg) no-repeat;
+	display: inline-block;
+	height: 34px;
+	width: 142px;
+	font-size: 18px;
+	line-height: 34px;
+	color: #fff;
+	text-align: center;
+}
+
+.con #cancel {
+	background: url(../img/hei_1_btn.jpg) no-repeat;
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	width: 142px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+.con #confirm:hover,
+.con #cancel:hover {
+	text-decoration: none;
+}

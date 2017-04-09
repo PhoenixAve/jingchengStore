@@ -1,0 +1,16 @@
+footer{
+	margin-top: 20px;
+	border-top: 2px #0079B3 solid;
+	padding: 20px 0;
+}
+footer p{
+	width: 1200px;
+	margin: 0 auto;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 10px;
+}
+footer p span{
+	padding: 0 20px;
+}

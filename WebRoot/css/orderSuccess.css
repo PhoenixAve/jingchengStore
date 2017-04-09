@@ -1,0 +1,87 @@
+.con #linkPay {
+	background: url(../img/bg_btns.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -300px;
+	height: 20px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 900;
+	font-family: "黑体";
+	line-height: 20px;
+}
+
+.con #linkPay:HOVER {
+	background: url(../img/bg_btns.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -330px;
+	height: 20px;
+	width: 50px;
+}
+
+.con .price_t {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+.con .price_t span{
+	font-size: 16px;
+}
+
+.con .div1 {
+	margin: 0 auto;
+	height: 35px;
+	background-color: #efeae5;
+	border-left: 5px solid #efeae5;
+	border-right: 5px solid #efeae5;
+}
+
+.con .div2 {
+	margin: 0 auto;
+	width: 690px;
+	padding: 0 250px;
+	height: 300px;
+	border: 5px solid #efeae5;
+}
+
+.con .div2 > span{
+	display: inline-block;
+	margin: 5px 0;
+}
+
+.con .div3 {
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.con .span1 {
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 25px;
+	font-weight: 900;
+	display: inline-block;
+}
+
+.con .img {
+	float: left;
+	margin: 30px 100px 0px 30px;
+	width: 150px;
+}
+
+.con dl {
+	float: left;
+	width: 400px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+.con dt {
+	font-weight: 900;
+	margin: 5px 0;
+}

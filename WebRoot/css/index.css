@@ -1,0 +1,143 @@
+#con-wrap .banner {
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	background: url(../img/banner2.jpg) no-repeat center;
+	background-size: cover;
+	box-shadow: 0 3px 5px #555;
+}
+#con-wrap .con > div{
+	margin-bottom: 40px;
+}
+#con-wrap .con h2{
+	position: relative;
+	padding-left: 20px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #0079B3;
+	background-color: #f1f1f1;
+	background: -webkit-linear-gradient(#e1e1e1, #eee); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#e1e1e1, #eee); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#e1e1e1, #eee); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#e1e1e1, #eee); /* 标准的语法 */
+}
+#con-wrap .con .tuijian h2:before{
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	width: 30px;
+	height: 30px;
+	content: "";
+	background: url(../img/tuijian.png) no-repeat left top;
+}
+#con-wrap .con .tuijian h2 a{
+	padding-left: 20px;
+	background: url(../img/change.png) no-repeat left center;
+	background-size: 15px;
+}
+#con-wrap .con .tuijian h2 a:hover{
+	background-image: url(../img/change1.png);
+}
+#con-wrap .con h2 a{
+	display: block;
+	padding-right: 20px;
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+}
+#con-wrap .con .pic {
+	display: block;
+	position: relative;
+	margin-bottom: 3px;
+	width: 200px;
+	height: 200px;
+}
+
+#con-wrap .con .inner {
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: keep-all;
+	white-space: nowrap;
+	border: solid 3px #fff;
+	padding: 16px 16px 0;
+	position: absolute;
+}
+
+#con-wrap .con .inner p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#con-wrap .con ul {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#con-wrap .con li {
+	float: left;
+	width: 240px;
+	height: 319px;
+	line-height: 18px;
+	position: relative;
+}
+
+#con-wrap .con li div {
+	margin-bottom: 1px;
+}
+
+#con-wrap .con .price {
+	padding-bottom: 3px;
+	color: #878787;
+}
+
+#con-wrap .con .price_n {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+}
+
+#con-wrap .con .price_s {
+	color: #c30;
+	font-family: Arial;
+}
+
+#con-wrap .con .price_r {
+	color: #878787;
+	text-decoration: line-through;
+	padding-right: 10px;
+	font-family: "Arial";
+}
+
+#con-wrap .con #bookname {
+	/*text-decoration: underline;*/
+	color: #555555;
+	display: block;
+	overflow: hidden;
+	width: 200px;
+	font-family: Arial;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#con-wrap .con #bookname:hover {
+	color: #FF6600;
+}
+
+#con-wrap .con .inner a {
+	color: #018BD3;
+}
+
+#con-wrap .con .inner a:hover {
+	color: #FF6600;
+}
+
+#con-wrap .con .inner a:visited {
+	color: #018BD3;
+}

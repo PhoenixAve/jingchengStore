@@ -1,0 +1,230 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	border: 0;
+}
+
+a {
+	color: #0089cb;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f00;
+}
+
+#quick {
+	width: 100%;
+	height: 30px;
+	background-color: #ddd;
+}
+
+#quick .quick-wrap {
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+}
+
+#quick .quick-login {
+	float: right;
+	height: 30px;
+	line-height: 30px;
+}
+
+#quick .quick-regist {
+	float: right;
+	height: 30px;
+	line-height: 30px;
+}
+
+#quick .quick-regist a,
+#quick .quick-login  a{
+	padding: 0 5px;
+	height: 30px;
+	line-height: 30px;
+}
+
+#quick .user-info {
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	position: relative;
+}
+
+#quick .user-info .user-name {
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	color: #333;
+}
+
+#quick .user-info .user-name:hover{
+	color: #fff;
+	background-color: #0089CB;
+}
+#quick .user-info ul {
+	display: none;
+	position: absolute;
+	width: 100px;
+	top: 30px;
+	left: 0px;
+	box-shadow: 0 3px 3px 0 #ccc;
+	z-index: 100;
+	background-color: #fff;
+}
+#quick .user-info ul li a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	color: #666;
+}
+
+#quick .user-info ul li a:hover {
+	color: #fff;
+	background-color: #0089CB;
+}
+
+header #search {
+	width: 1200px;
+	height: 130px;
+	margin: 0 auto;
+}
+
+header .logo {
+	padding: 10px 0;
+	float: left;
+}
+
+header .logo a {
+	display: block;
+	width: 390px;
+	height: 110px;
+	background: url(../img/logo.png) no-repeat center;
+}
+
+header .search {
+	padding: 46px 0;
+	width: 500px;
+	height: 36px;
+	float: left;
+}
+
+header .search .sear-con {
+	width: 397px;
+	height: 36px;
+	padding: 0 10px;
+	line-height: 30px;
+	border: 3px solid #0089cb;
+	border-right: 0;
+	float: left;
+}
+
+header .search .sear-btn {
+	width: 80px;
+	height: 36px;
+	background-color: #0089CB;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+header .myCar {
+	width: 140px;
+	height: 34px;
+	border: 1px solid #ccc;
+	float: right;
+	margin: 46px 75px 0 0;
+}
+
+header .myCar a {
+	display: block;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+}
+
+header .myCar a::before {
+	width: 35px;
+	height: 34px;
+	content: "";
+	float: left;
+	background: url(../img/car.png) no-repeat 15px center;
+}
+
+header .myCar a::after {
+	width: 30px;
+	height: 34px;
+	content: "";
+	float: right;
+	background: url(../img/arrow.png) no-repeat 10px center;
+}
+
+nav {
+	height: 44px;
+	border-bottom: 2px solid #0089CB;
+}
+
+nav .nav-wrap {
+	width: 1200px;
+	height: 44px;
+	margin: 0 auto;
+}
+
+nav .nav-wrap .all {
+	float: left;
+	width: 200px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background-color: #0089CB;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+}
+
+nav .nav-wrap ul {
+	float: left;
+}
+
+nav .nav-wrap ul.nav li {
+	height: 44px;
+	float: left;
+}
+
+nav .nav-wrap ul.nav li a {
+	display: block;
+	padding: 0 30px;
+	height: 44px;
+	line-height: 44px;
+	color: #666;
+	font-size: 14px;
+}
+
+nav .nav-wrap ul.nav li a:hover {
+	color: #0089CB;
+	background-color: #6AD1FF;
+	color: #fff;
+}
+
+#con-wrap {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#con-wrap .con {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 20px;
+	/*border-left: 1px solid #f00;
+	border-right: 1px solid #f00;*/
+}

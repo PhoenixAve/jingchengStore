@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	border: 0;
+}
+
+a {
+	color: #0089cb;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f00;
+}
+
+@charset "utf-8";
+
+/*------------// Overall //------------------*/
+
+body.login {
+	background: url(../../img/login_bgx.gif);
+}
+
+
+/*--login--*/
+
+.login_m {
+	width: 403px;
+	margin: 0 auto;
+	height: 375px;
+	margin-top: 98px;
+	/*position: absolute;left:50%;top:50%;margin-left:-202px;margin-top:-188px;*/
+}
+
+.login_logo {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.login_boder {
+	background: url(../../img/login_m_bg.png) no-repeat;
+	height: 302px;
+	overflow: hidden;
+}
+
+.login_padding {
+	padding: 10px 47px 20px 47px;
+}
+
+.login_boder .msg{
+	padding: 20px 47px 0;
+	height: 20px;
+}
+.login_boder h2 {
+	color: #4f5d80;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 11px;
+}
+
+.login_boder input.txt_input {
+	width: 295px;
+	height: 36px;
+	border: 1px solid #cad2db;
+	padding: 0 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 36px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #717171;
+	font-family: Arial;
+}
+
+.login_boder input.txt_input2 {
+	margin-bottom: 20px;
+}
+
+.login_boder input.txt_input:focus {
+	transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, -moz-box-shadow linear .2s;
+	-webkit-transition: border linear .2s, -webkit-box-shadow linear .2s;
+	outline: none;
+	border-color: rgba(173, 173, 173.75);
+	box-shadow: 0 0 8px rgba(173, 173, 173, .5);
+	-moz-box-shadow: 0 0 8px rgba(173, 173, 173, .5);
+	-webkit-box-shadow: 0 0 8px rgba(173, 173, 173, 3);
+	border: 1px solid #6192c8;
+}
+
+.rem_sub {
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+.rem_sub input.sub_button {
+	float: right;
+	width: 307px;
+	height: 40px;
+	color: #FFF;
+	font-size: 14px;
+	background-color: #0496da;
+	border: 1px solid #004c9b;
+}
+
+.rem_sub input.sub_button:hover {
+	background-color: #0166B6;
+	cursor: pointer;
+}

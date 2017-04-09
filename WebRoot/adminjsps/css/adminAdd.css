@@ -1,0 +1,74 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	border: 0;
+}
+body{
+	background-color: #FFF2CE;
+}
+.con{
+	margin: 20px auto 0;
+	width: 1200px;
+}
+.con h3{
+	text-align: center;
+	font-size: 18px;
+}
+.con form{
+	margin: 20px auto 0;
+	width: 500px;
+}
+.con form input[type="text"]{
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.con form select{
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 210px;
+	height: 30px;
+	line-height: 20px;
+	margin-bottom: 30px;
+}
+.con form textarea{
+	border: 1px solid #ccc;
+	padding: 5px;
+	width: 300px;
+	height: 80px;
+	resize: none;
+}
+.con form input[type="submit"]{
+	height: 30px;
+	line-height: 18px;
+	margin: 10px 0 20px 100px;
+	padding: 5px 10px;
+	background-color: #0496da;
+	border: 1px solid #004c9b;
+	color: #fff;
+	border-radius: 3px;
+}
+.con form input[type="submit"]:hover{
+	background-color: #0166B6;
+	cursor: pointer;
+}
+.con form input[type="button"]{
+	height: 30px;
+	line-height: 18px;
+	margin: 10px 0 20px 10px;
+	padding: 5px 10px;
+	background-color: #D6D8D8;
+	border: 1px solid #aaa;
+	color: #333;
+	border-radius: 3px;
+}
+.con form input[type="button"]:hover{
+	background-color: #ddd;
+	cursor: pointer;
+}

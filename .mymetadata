@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="jingchengStore"
+  id="myeclipse.1457439060170"
+  context-root="/jingchengStore"
+  j2ee-spec="5.0"
+  archive="jingchengStore.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

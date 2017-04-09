@@ -1,0 +1,79 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	border: 0;
+}
+header{
+	margin: 0 auto;
+	width: 100%;
+	border-bottom: 2px solid #0089CB;
+}
+header .search {
+	margin: 20px auto;
+	width: 500px;
+	height: 36px;
+}
+
+header .search .sear-con {
+	width: 397px;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 30px;
+	border: 3px solid #0089cb;
+	border-right: 0;
+	float: left;
+}
+
+header .search .sear-btn {
+	width: 80px;
+	height: 36px;
+	background-color: #0089CB;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.admin_logo {
+	padding-top: 20px;
+	text-align: center;
+}
+nav{
+	margin: 0 auto;
+	width: 1200px;
+	text-align: center;
+}
+nav .header-left{
+	padding: 20px 0;
+	font-size: 14px;
+}
+nav .header-left a,
+nav .header-left span{
+	padding: 0 5px;
+	font-size: 16px;
+}
+nav .header-left a{
+	color: #0089CB;
+	text-decoration: none;
+}
+nav .header-left a:hover{
+	color: #004c9b;
+}
+nav > a{
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 16px;
+	text-decoration: none;
+	color: #0089CB;
+}
+nav > a:hover{
+	color: #fff;
+	background-color: #0089CB;
+}
+nav > a.active{
+	color: #fff;
+	background-color: #0089CB;
+}

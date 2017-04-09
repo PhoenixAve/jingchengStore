@@ -1,0 +1,68 @@
+.con{
+	width: 1200px;
+	margin: 0 auto;
+}
+table {
+	font-size: 12px;
+}
+
+td {
+	padding-left: 5px;
+	text-align: center;
+}
+
+tr:nth-child(2n) td:first-child{
+	width: 530px;
+}
+
+td:first-child{
+	text-align: left;
+}
+
+td img{
+	margin: 15px 0;
+}
+
+body {
+	font-size: 12px;
+	color: #404040;
+}
+
+.divMain {
+	width: 1200px;
+}
+
+.pLink {
+	height: 40px;
+	line-height: 40px;
+}
+
+.pLink a{
+	padding: 0 5px;
+}
+
+.pLink a:hover{
+	text-decoration: none;
+}
+
+.title {
+	border: 1px solid #d0d0d0;
+	background: url(/jingchengStore/img/bg_btns.png) repeat-x;
+	background-position: 0 -132px;
+	height: 30px;
+}
+
+.price_t {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.tt {
+	background-color: #efeae5;
+	height: 25px;
+	font-family: Arial;
+	color: #878787;
+}

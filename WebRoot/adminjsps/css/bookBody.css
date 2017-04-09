@@ -1,0 +1,11 @@
+.con .right h2{
+	margin-top: 20px;
+	font-size: 16px;
+}
+.con .right p{
+	padding: 10px;
+}
+.con .right p a{
+	margin: 20px;
+	font-size: 16px;
+}

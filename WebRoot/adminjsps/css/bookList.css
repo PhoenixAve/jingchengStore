@@ -1,0 +1,94 @@
+.con .right .pic {
+	display: block;
+	position: relative;
+	margin-bottom: 3px;
+	width: 200px;
+	height: 200px;
+}
+
+.con .right .inner {
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: keep-all;
+	white-space: nowrap;
+	border: solid 3px #fff;
+	padding: 16px 16px 0;
+	position: absolute;
+}
+
+.con .right .inner p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.con .right ul {
+	padding: 20px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.con .right li {
+	float: left;
+	width: 240px;
+	height: 319px;
+	line-height: 18px;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.con .right li div {
+	margin-bottom: 1px;
+}
+
+.con .right .price {
+	padding-bottom: 3px;
+	color: #878787;
+}
+
+.con .right .price_n {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+}
+
+.con .right .price_s {
+	color: #c30;
+	font-family: Arial;
+}
+
+.con .right .price_r {
+	color: #878787;
+	text-decoration: line-through;
+	padding-right: 10px;
+	font-family: Arial;
+}
+
+.con .right #bookname {
+	/*text-decoration: underline;*/
+	color: #555555;
+	display: block;
+	overflow: hidden;
+	width: 200px;
+	font-family: Arial;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.con .right #bookname:hover {
+	color: #FF6600;
+}
+
+.con .right .inner a {
+	color: #018BD3;
+}
+
+.con .right .inner a:hover {
+	color: #FF6600;
+}
+
+.con .right .inner a:visited {
+	color: #018BD3;
+}
